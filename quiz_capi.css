@@ -1,0 +1,188 @@
+body{
+    background-color:darkcyan;
+    scroll-behavior: smooth;
+}
+.icon{
+    border:solid 5px rgb(255, 153, 0);
+    border-radius: 5in;
+    float:left;
+
+}
+.accueil{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: orange;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.register{
+    color: darkcyan;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: orange;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.choice{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: rgb(0, 119, 255);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.div_1{
+    
+    border-radius: 5rem;
+
+}
+.apropos{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: 2em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: orange;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 100em;
+    margin-right: 2em;
+
+}
+
+.test{
+    background-color: indigo;
+    border : solid 10px orange;
+    border-radius: 5rem;
+}
+.img_main{
+    border:solid 10px orange;
+    border-radius: 5rem;
+    
+
+}
+.div001{
+    text-align:center;
+    transition:all 0.2s ease-in-out;
+    
+}
+.nav{
+    background-color: #b3ff00;
+    border-radius:5rem;
+
+}
+.quiz_style{
+    border:solid 10px orange;
+    border-radius:5rem;
+    text-align:center;
+    margin-left:800px;
+    margin-right:800px; 
+}
+.img1{
+    float:left;
+    border:solid 10px orange;
+    border-radius:5rem;
+}
+.img2{
+    float:right;
+    border:solid 10px orangered;
+    border-radius:5rem;
+}
+.submit{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    transition: all .2s ease-in-out;
+    background: darkred;
+}
+.reset{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    transition: all .2s ease-in-out;
+    background: darkred;
+    
+}
+.navi{
+    text-align:center;
+    transition:all 0.2s ease-in-out;
+    margin-top: 1cm;    
+}
+.rest{
+    color :#fff;
+    font-size :12px;
+    text-transform:uppercase;
+    text-align:center;
+    padding:.72em 1.5em;
+    border-radius : 2rem;
+    line-height:1.8em;
+    border:0;
+    letter-spacing:.8px;
+    background-color : darkseagreen;
+    transition :all 0.2s ease-in-out;
+    cursor:pointer;
+
+}

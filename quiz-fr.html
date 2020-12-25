@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <title>Myquiz:Quiz Des Capitales </title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='stylesheet' type='text/css' href='quiz_capi.css'>
+        <link rel='shortcut icon' type='image/png' href='image/myquiz.png'>
+        <script src='quiz_capi.js'></script>
+    </head>
+    <body>
+        <header class='test'>
+            <div class ='div_1' >
+                <scale><a href='index.html'><img class ='icon' width = 90 height = 90 src ='image/myquiz.png'></img></a></scale>
+                <scale><button class='accueil' type='button'><a href = 'index.html'>Accueil</a></button></scale>
+                <scale><button class = 'register' type='button'><a target='_blank' href = 'register.html'>S'inscrire</a></button></scale>
+                <scale><button class = 'choice'type='button'><a href = 'quiz_choice.html'>Nos Quizs</a></button></scale>   
+                <scale><button class='apropos' type='button'><a href='a_propos.html'>A propos de nous</a></button></scale>
+        </header>
+        <main>
+            <br/>
+            <div class='div001'>
+                <br/><br/>
+                <div class="nav">
+                    <img width = 600 height=300 class ='img_main'src='images/test.jpg' type='image/jpg'>
+                </div>
+            </div>
+            <div class="imgs">
+                <br/>
+                <br/>
+                <img width = 600 height=300 class ='img1'src='image/share.jpg'>
+                <img width = 600 height= 300 class='img2' src='image/impoi.png'>
+            </div>
+            <div class="quiz_style">
+                <form name='quiz' id='quiz'>
+                    <div class='qst1_style'>
+                        <p><u><strong>1: Quelle est le passé composé du verbe savoir ?</strong></u></p>
+                        <p><input type='radio' name='question1' value='Paris'>A.je sus</p>
+                        <p><input type='radio' name='question1' value='madrid'>B:j'ai su</p>
+                        <p><input type='radio' name='question1' value='barcelone'>C:j'avais su</p>
+                    </div>
+                    <div class="qst2_style">
+                        <p><u><strong>2:quelle est la passé simple du verbe naitre</strong></u></p>
+                        <p><input type='radio' name ='question2' value='paris'>A:nous naquîmes</p>
+                        <p><input type='radio' name='question2' value='casablanca'>B:nous étions nés</p>
+                        <p><input type='radio' name='question2' value='grenoble'>C:nous fûmes nés</p>
+                        <p><input type='radio' name='question2' value='frankfurd'>D:nous serons nés</p>
+                    </div>
+                    <div>
+                        <p><u><strong>3: Quelle est la conjugaison imparfait du verbe pouvoir ?</strong></u></p>
+                        <p><input type='radio' name='question3' value='dublin'>A:vous pouvez</p>
+                        <p><input type='radio' name='question3' value='new york'>B:nous avions pu</p>
+                        <p><input type='radio' name='question3' value='londre'>C:nous pouvions</p>
+                        <p><input type='radio' name='quetsion3' value='autriche'>D:nous eûmes pu</p>
+                    </div>
+                    <div>
+                        <p><u><strong>4: Quelle est al conjugaison à l'imparfait du verbe vouvoir ?</strong></u></p>
+                        <p><input type='radio' name='question4' value='istanbul'>A:je veux</p>
+                        <p><input type='radio' name='question4' value='ataturk'>B:nous voulions</p>
+                        <p><input type='radio' name='question4' value='paris'>C:j'avais voulu</p>
+                        <p><input type='radio' name='question4' value='gatwick'>D:il eut voulu</p>
+                    </div>
+                    <div class="qst5">
+                        <p><u><strong>5: Quelle est la conjugaison au Futur Antérieur du verbe vouloir ?</strong></u></p>
+                        <p><input type='radio' name='question5' value='venis'>A:il eut voulu</p>
+                        <p><input type='radio' name='question5' value='napolie'>B:vous avez voulu</p>
+                        <p><input type='radio' name='question5' value='naples'>C:nous eûmes voulu</p>
+                        <p><input type='radio' name='question5' value='rome'>D:j'aurai voulu</p>
+                    </div>
+                    <br/>
+                    <input class='submit' id ='done'type ='button' name ='' value ="Verifié mes resultats" onclick = check()> 
+                    <spin><input type='reset' class='reset'></spin> 
+                    <br/><br/>
+                    <button type='button' class='rest' onclick=rest()>recommencer</button>
+                    <br/><br/>
+                </form>
+                <div>
+                    <U><strong><h1 id = 'reslut_title'></h1></strong></U>
+                    <h1 class = 'result' id ='result'></h1>
+                    <h1 class = 'result1' id ='result_inter'></h1>
+                  </div>
+        </main>
+        <h6 style=text-align:center;><strong>ⓇCopyright All Rights Reserved Mouad Hajbaoui</strong></h6>
+    </body>
+</html>

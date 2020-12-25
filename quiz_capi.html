@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <title>Myquiz:Quiz Des Capitales </title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='stylesheet' type='text/css' href='quiz_capi.css'>
+        <link rel='shortcut icon' type='image/png' href='image/myquiz.png'>
+        <script src='quiz_capi.js'></script>
+    </head>
+    <body>
+        <header class='test'>
+            <div class ='div_1' >
+                <scale><a href='index.html'><img class ='icon' width = 90 height = 90 src ='image/myquiz.png'></img></a></scale>
+                <scale><button class='accueil' type='button'><a href = 'index.html'>Accueil</a></button></scale>
+                <scale><button class = 'register' type='button'><a target='_blank' href = 'register.html'>S'inscrire</a></button></scale>
+                <scale><button class = 'choice'type='button'><a href = 'quiz_choice.html'>Nos Quizs</a></button></scale>   
+                <scale><button class='apropos' type='button'><a href='a_propos.html'>A propos de nous</a></button></scale>
+        </header>
+        <main>
+            <br/>
+            <div class='div001'>
+                <br/><br/>
+                <div class="nav">
+                    <img width = 600 height=300 class ='img_main'src='images/test.jpg' type='image/jpg'>
+                </div>
+            </div>
+            <div class="imgs">
+                <br/>
+                <br/>
+                <img class ='img1'src='https://www.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_230/vue-a%C3%A9rienne-paris-tour-eiffel-coucher-de-soleil-%7C-630x405-%7C-%C2%A9-fotolia/19544352-1-fre-FR/Vue-a%C3%A9rienne-Paris-Tour-Eiffel-coucher-de-soleil-%7C-630x405-%7C-%C2%A9-Fotolia.jpg'
+                width=600 height=300>
+                <img width = 600 height= 300 class='img2' src='image/visiter-Madrid.jpg'>
+            </div>
+            <div class="quiz_style">
+                <form name='quiz' id='quiz'>
+                    <div class='qst1_style'>
+                        <p><u><strong>1:Quelle est la capital De l'Espagne ? </strong></u></p>
+                        <p><input type='radio' name='question1' value='Paris'>A.Paris</p>
+                        <p><input type='radio' name='question1' value='madrid'>B:Madrid</p>
+                        <p><input type='radio' name='question1' value='barcelone'>C:Barcelone</p>
+                    </div>
+                    <div class="qst2_style">
+                        <p><u><strong>2:Quelle est la capitale de la france ?</strong></u></p>
+                        <p><input type='radio' name ='question2' value='paris'>A:Paris</p>
+                        <p><input type='radio' name='question2' value='casablanca'>B:Casablanca</p>
+                        <p><input type='radio' name='question2' value='grenoble'>C:Grenoble</p>
+                        <p><input type='radio' name='question2' value='frankfurd'>D:Frankfurd</p>
+                    </div>
+                    <div>
+                        <p><u><strong>3:Quelle est la capitale des Uk ?</strong></u></p>
+                        <p><input type='radio' name='question3' value='dublin'>A:Dublin</p>
+                        <p><input type='radio' name='question3' value='new york'>B:New York</p>
+                        <p><input type='radio' name='question3' value='londre'>C:Londres</p>
+                        <p><input type='radio' name='quetsion3' value='autriche'>D:Autriche</p>
+                    </div>
+                    <div>
+                        <p><u><strong>4:Quelle est la capital de la turquie</strong></u></p>
+                        <p><input type='radio' name='question4' value='istanbul'>A:Istanbul</p>
+                        <p><input type='radio' name='question4' value='ataturk'>B:Ataturk</p>
+                        <p><input type='radio' name='question4' value='paris'>C:Paris</p>
+                        <p><input type='radio' name='question4' value='gatwick'>D:Gatwick</p>
+                    </div>
+                    <div class="qst5">
+                        <p><u><strong>5:Quelle est la capital de L'italie</strong></u></p>
+                        <p><input type='radio' name='question5' value='venis'>A:Venis</p>
+                        <p><input type='radio' name='question5' value='napolie'>B:Napolie</p>
+                        <p><input type='radio' name='question5' value='naples'>C:Naples</p>
+                        <p><input type='radio' name='question5' value='rome'>D:Rome</p>
+                    </div>
+                    <br/>
+                    <input class='submit' id ='done'type ='button' name ='' value ="Verifié mes resultats" onclick = check()> 
+                    <spin><input type='reset' class='reset'></spin> 
+                    <br/><br/>
+                    <button type='button' class='rest' onclick=rest()>recommencer</button>
+                    <br/><br/>
+                </form>
+                <div>
+                    <U><strong><h1 id = 'reslut_title'></h1></strong></U>
+                    <h1 class = 'result' id ='result'></h1>
+                    <h1 class = 'result1' id ='result_inter'></h1>
+                  </div>
+        </main>
+    </body>
+    <h6 style=text-align:center;><strong>ⓇCopyright All Rights Reserved Mouad Hajbaoui</strong></h6>
+</html>

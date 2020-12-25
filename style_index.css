@@ -1,0 +1,197 @@
+body{
+    background-color: darkcyan;
+    scroll-behavior: smooth;
+}
+.icon{
+    border:solid 5px rgb(255, 153, 0);
+    border-radius: 5in;
+    float:left;
+
+}
+.accueil{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: solid 5px black;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: rgb(0, 119, 255);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.register{
+    color: darkcyan;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: orange;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.choice{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: orange;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.div_1{
+    border : solid 10px black;
+    border-radius: 5rem;
+
+}
+.apropos{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: 2em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: orange;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 90em;
+    margin-right: 2em;
+
+}
+.brns{
+    text-align:center;
+
+}
+.test{
+    background-color: indigo;
+    border : solid 10px black;
+    border-radius: 5rem;
+    
+    
+}
+.My{
+    color:orange;
+    size:10px;
+    text-align:center;
+    border: solid 10px orange;
+    border-radius: 1rem;
+    margin-left: 800px;
+    margin-right:800px;
+
+}
+.div2{
+    border:solid 10px darkslategrey;
+    margin-right:300px;
+    margin-left:300px;
+    border-radius:5rem;
+    background-color: steelblue;
+}
+.img_ini{
+    margin-top:1cm;
+    border-radius:5rem;
+}
+.what{
+    color : orange;
+    letter-spacing: 0.147rem;
+    margin-left:1cm;
+    text-transform:uppercase;
+}
+.hsj{
+    text-align:center;
+    
+}
+.pgr{
+    color :#fff;
+    margin-left: 1cm;
+}
+.sjk{
+    color : orange;
+    letter-spacing: 0.147rem;
+    margin-left:1cm;
+    text-transform:uppercase;
+
+}
+.lfpg{    
+    color :#fff;
+    margin-left: 1cm;
+}
+.klm{
+    text-align:center;
+    float:left;
+}
+.K84{
+    color : orange;
+    letter-spacing: 0.147rem;
+    margin-left:1cm;
+    text-transform:uppercase;
+}
+.pgr2{
+    color :#fff;
+    margin-left: 1cm;
+}
+
+.hero{
+    color : orange;
+    letter-spacing: 0.147rem;
+    margin-left:1cm;
+    text-transform:uppercase;
+}
+.spider{
+    color :#fff;
+    margin-left: 1cm;
+}
+.hels{
+    color:orange;
+}
+.dj{
+    color:orange;
+}
+.lsp{
+    color:orange;
+    letter-spacing: 0.1458rem;
+}
+button.icon , button:hover{
+    transition : all 0.5s ease-in-out;
+    border: solid 5px black;
+    background-color:dodgerblue;
+}

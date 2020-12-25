@@ -1,0 +1,124 @@
+body{
+    background-color : darkcyan;
+}
+.main_header{
+    color:orange;
+    text-align: center;
+    text-transform: uppercase;
+}
+.register_pic{
+    text-align:center;
+    border:solid 10px orange;
+    border-radius: 5em;
+}
+button{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    transition: all .2s ease-in-out;
+    background: orange;
+    animation: ease-in-out;
+}
+.form{
+    text-align:center;
+    border :solid 10px orangered;
+    border-radius : 5rem;
+    margin-left:500px;
+    margin-right:500px;
+    background-color:#2F4F4F;
+}
+Label{
+    color : rgb(255, 145, 0);
+    size : 50px;
+    transition: all .2s ease-in-out;
+}
+.submit{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    transition: all .2s ease-in-out;
+    background: darkred;
+    margin-bottom: 1cm;
+}
+.reset{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    transition: all .2s ease-in-out;
+    background: darkred;
+    
+}
+button.reset , input:hover{
+    transition : all 0.5s ease-in-out;
+    border: solid 5px black;
+    background-color:rgba(33, 204, 33, 0.986);
+}
+#Lname{
+    color: green;
+    border: solid, 10px goldenrod;
+    border-radius: 5ex;
+}
+#fname{
+    color: green;
+    border: solid, 10px goldenrod;
+    border-radius: 5ex;
+    
+}
+#password{
+    color: green;
+    border: solid, 10px goldenrod;
+    border-radius: 5ex;
+}
+#username{
+    color: green;
+    border: solid, 10px goldenrod;
+    border-radius: 5ex;
+}
+.jfk{
+    text-align : center;
+
+}
+.jhg{
+    margin-top:1cm;
+}
+.register{
+    background-color:dodgerblue;
+    border:solid 5px black;
+}
+.icon{
+    border:solid 10px orange;
+    border-radius:5rem;
+}
+.div_1{
+    background-color:#2F4F4F;
+    border:solid 10px #2F4F4F;
+    border-radius: 5rem;
+}
+button.icon , button:hover{
+    transition : all 0.5s ease-in-out;
+    border: solid 5px black;
+    background-color:dodgerblue;
+}

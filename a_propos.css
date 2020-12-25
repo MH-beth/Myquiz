@@ -1,0 +1,204 @@
+body{
+    background-color: darkcyan;
+    scroll-behavior: smooth;
+}
+.icon{
+    border:solid 5px rgb(255, 153, 0);
+    border-radius: 5in;
+    float:left;
+
+}
+img.icon , img:hover{
+
+    transition : all 0.5s ease-in-out;
+    border: solid 5px black;
+        background-color:dodgerblue;
+
+}
+.accueil{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: orange;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.register{
+    color: darkcyan;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: orange;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.choice{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: orange;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.div_1{
+    border : solid 10px black;
+    border-radius: 5rem;
+
+}
+.apropos{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: solid 5px black;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: 2em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: rgb(0, 119, 255);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 90em;
+    margin-right: 2em;
+
+}
+button.icon , button:hover{
+    transition : all 0.5s ease-in-out;
+    border: solid 5px black;
+    background-color:dodgerblue;
+}
+.test{
+    background-color: indigo;
+    border : solid 10px black;
+    border-radius: 5rem;
+}
+.sql{
+    margin-top:1cm;
+    border:solid 10px darkslategrey;
+    margin-right:300px;
+    margin-left:300px;
+    border-radius:5rem;
+    background-color: steelblue;
+    transition : all 0.458s ease-in-out;
+}
+.whatz{
+    text-align:center;
+    text-transform: uppercase;
+    color: orange;
+    letter-spacing: 0.1478;
+}
+.tohg{
+    border-radius:5rem;
+    border:solid 10px orange;
+}
+.fsh{
+    text-align:center;
+    margin-top:1cm;
+}
+.gsos{
+    color:#fff;
+    margin-left:1cm;
+}
+.mso{
+    text-align:center;
+    color:#2F4F4F
+}
+label{
+    size:50px;
+}
+.avis {
+    text-align:center;
+    border :solid 10px rgb(255, 153, 0);
+    margin-left: 400px;
+    margin-right:400px;
+    border-radius:5rem;
+    transition: all 0.45s ease-in-out;
+}
+.ndn{
+    margin-top:1cm;
+}
+.input{
+    margin-bottom: 1cm;
+}
+.final{
+    color:greenyellow;
+    letter-spacing: 0.178rem;
+}
+.subkd{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: 0.78em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: darkred;
+}
+.tdd{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: 0.78em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: darkred;
+
+}

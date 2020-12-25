@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Myquiz:Register</title>
+        <meta name='description' content='Register page'>
+        <meta charset='UTF-8'>
+        <link rel='shortcut icon' type='image/png' href='image/myquiz.png'>
+        <link rel='stylesheet' type='text/css' href='register.css'>
+        <script src ='register.js'></script>
+    </head>
+    <body>
+        <header class='hello_wo'>
+            <div class ='div_1' >
+                <scale><a href='Index.html'><img class='icon' width = 90 height = 90 src ='image/myquiz.png'></a></scale>
+                <scale><button class='accueil' type='button'><a href = 'index.html'>Accueil</a></button></scale>
+                <scale><button class = 'register' type='button'><a target='_blank' href = 'register.html'>S'inscrire</a></button></scale>
+                <scale><button class = 'choice'type='button'><a href = 'quiz_choice.html'>Nos Quizs</a></button></scale>   
+                <scale><button class='apropos' type='button'><a href='a_propos.html'>A propos de nous</a></button></scale>
+        </header>
+        <div class="jfk">
+            <u><h1 class='main_header' idd='header'>Page d'inscription</h1></u>
+            <img class='register_pic' width= 200 type='image/pngx' height = 200 src='image/register.png'>
+        </div>
+        <form  class = 'form'name='userinfo'>
+            <div class="jhg">
+                <U><label class = 'gmn'for='FName'>Prenom:</label></U>
+            </div>
+            <br/>
+            <input type='text' id='fname' name='fname' value ="">
+            <br/><br/>
+            <U><label for='LName'>Nom De Famile:</label></U>
+            <br/><br/>
+            <input type='text' id='Lname' name='Lname' value=''>
+            <br/><br/>
+            <U><label for='username'>Pseudo:</label></U>
+            <br/><br/>
+            <input type='text' id='username' name='username' value=''>
+            <br/><br/>
+            <U><label for='password'>Mot de passe:</label></U>
+            <br/><br/>
+            <input type='password' id='password' name='password'value=''>
+            <br/><br/>
+            <u><label for='gender'>Sexe:</label></u></U>
+            <div>
+                <p><input type='radio' id='gender' name='gender' value='M'>Homme</p>
+                <p><input type='radio' id='gender' name='gender' value='F'>Femme</p>
+                <p><input type='radio' id='gender' name='gender' value='o'>Autre</p>
+            </div>
+            <div>
+                <br/>
+                <u><label for='pdp'>Photo De Profil:</label></u>
+                <br/><br/>
+                <input type='file' accept='image/*' name='pdp' id='pdp' value=''>
+                <br/><br/>
+            </div>
+            <span><input class='submit'type='button' value = "s'inscrire" onclick= user()></span>
+            <span><input class='reset' type='reset'></span>
+        </form>
+    </body>
+    <h6 style=text-align:center;><strong>ⓇCopyright All Rights Reserved Mouad Hajbaoui</strong></h6>
+</html>
