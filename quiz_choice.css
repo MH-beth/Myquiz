@@ -73,8 +73,8 @@ body{
 }
 button.icon , button:hover{
     transition : all 0.5s ease-in-out;
-    border: solid 5px black;
-    background-color:dodgerblue;
+    border: solid 5px white;
+    background:linear-gradient(90deg, rgb(0, 255, 234), rgb(118, 0, 253));
 }
 .div_1{
     
@@ -88,7 +88,7 @@ button.icon , button:hover{
     text-align: center;
     line-height: 1.8em;
     border-radius: 2rem;
-    border: 0;
+    border: solid 5px black;
     cursor: pointer;
     font-weight: 400;
     font-stretch: normal;
@@ -99,7 +99,7 @@ button.icon , button:hover{
     background: orange;
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 90em;
+    margin-left: 100em;
     margin-right: 2em;
 
 }

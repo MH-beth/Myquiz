@@ -1,6 +1,109 @@
 body{
-    background-color : darkcyan;
-}
+    background-color:darkcyan;
+    scroll-behavior: smooth;
+  }
+  .icon{
+    border:solid 5px rgb(255, 153, 0);
+    border-radius: 5in;
+    float:left;
+  
+  }
+  .accueil{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: orange;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .register{
+    color: darkcyan;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: orange;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .choice{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: .72em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: orange;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .div_1{
+    border-radius: 5rem;
+    background-color:indigo;
+  
+  }
+  .apropos{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.8em;
+    border-radius: 2rem;
+    border: solid 5px black;
+    cursor: pointer;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: .8px;
+    padding: 2em 1.5em;
+    position: relative;
+    transition: all .2s ease-in-out;
+    background: orange;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 100em;
+    margin-right: 2em;
+  
+  }
+  button.icon , button:hover{
+    transition : all 0.5s ease-in-out;
+    border: solid 5px white;
+    background:linear-gradient(90deg, rgb(0, 255, 234), rgb(118, 0, 253));
+  }
+  
 .main_header{
     color:orange;
     text-align: center;
@@ -34,12 +137,12 @@ button{
     border-radius : 5rem;
     margin-left:500px;
     margin-right:500px;
-    background-color:#2F4F4F;
+    background-color:orange;
 }
 Label{
-    color : rgb(255, 145, 0);
-    size : 50px;
+    color : darkred;
     transition: all .2s ease-in-out;
+    font-size:25px;
 }
 .submit{
     color: #fff;
@@ -74,26 +177,26 @@ Label{
 button.reset , input:hover{
     transition : all 0.5s ease-in-out;
     border: solid 5px black;
-    background-color:rgba(33, 204, 33, 0.986);
+    background-color:midnightblue;
 }
 #Lname{
-    color: green;
+    color: rgb(0, 132, 255);
     border: solid, 10px goldenrod;
     border-radius: 5ex;
 }
 #fname{
-    color: green;
+    color: rgb(0, 132, 255);
     border: solid, 10px goldenrod;
     border-radius: 5ex;
     
 }
 #password{
-    color: green;
+    color: rgb(0, 132, 255);
     border: solid, 10px goldenrod;
     border-radius: 5ex;
 }
 #username{
-    color: green;
+    color: rgb(0, 132, 255);
     border: solid, 10px goldenrod;
     border-radius: 5ex;
 }
@@ -119,6 +222,6 @@ button.reset , input:hover{
 }
 button.icon , button:hover{
     transition : all 0.5s ease-in-out;
-    border: solid 5px black;
-    background-color:dodgerblue;
+    border: solid 5px white;
+    background:linear-gradient(90deg, rgb(0, 255, 234), rgb(118, 0, 253));
 }

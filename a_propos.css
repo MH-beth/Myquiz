@@ -90,7 +90,7 @@ img.icon , img:hover{
     text-align: center;
     line-height: 1.8em;
     border-radius: 2rem;
-    border: solid 5px black;
+    border: solid 5px white;
     cursor: pointer;
     font-weight: 400;
     font-stretch: normal;
@@ -101,14 +101,14 @@ img.icon , img:hover{
     background: rgb(0, 119, 255);
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 90em;
+    margin-left: 100em;
     margin-right: 2em;
 
 }
 button.icon , button:hover{
     transition : all 0.5s ease-in-out;
-    border: solid 5px black;
-    background-color:dodgerblue;
+    border: solid 5px white;
+    background:linear-gradient(90deg, rgb(0, 255, 234), rgb(118, 0, 253));
 }
 .test{
     background-color: indigo;
@@ -201,4 +201,27 @@ label{
     transition: all .2s ease-in-out;
     background: darkred;
 
+}
+.nam{
+    font-size:20px;
+    border-radius: 5rem;
+    border:solid 8px dodgerblue;
+}
+.name{
+    font-size:20px;
+    border-radius:5rem;
+    border:solid 8px dodgerblue;
+}
+.input{
+    font-size:20px;
+    border-radius:2rem;
+    border:solid 8px dodgerblue;
+}
+.avis{
+    font-size:20px;
+    background-color:indigo;
+    border:solid 8px dodgerblue;
+}
+label{
+    color:dodgerblue;
 }

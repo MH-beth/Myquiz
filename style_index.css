@@ -15,7 +15,7 @@ body{
     text-align: center;
     line-height: 1.8em;
     border-radius: 2rem;
-    border: solid 5px black;
+    border: solid 5px white;
     cursor: pointer;
     font-weight: 400;
     font-stretch: normal;
@@ -23,7 +23,7 @@ body{
     padding: .72em 1.5em;
     position: relative;
     transition: all .2s ease-in-out;
-    background: rgb(0, 119, 255);
+    background:linear-gradient(90deg, rgb(0, 255, 234), rgb(118, 0, 253));;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 1em;
@@ -83,7 +83,7 @@ body{
     text-align: center;
     line-height: 1.8em;
     border-radius: 2rem;
-    border: 0;
+    border: solid 5px black;
     cursor: pointer;
     font-weight: 400;
     font-stretch: normal;
@@ -94,7 +94,7 @@ body{
     background: orange;
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 90em;
+    margin-left: 100em;
     margin-right: 2em;
 
 }
@@ -192,6 +192,6 @@ body{
 }
 button.icon , button:hover{
     transition : all 0.5s ease-in-out;
-    border: solid 5px black;
-    background-color:dodgerblue;
+    border: solid 5px white;
+    background:linear-gradient(90deg, rgb(0, 255, 234), rgb(118, 0, 253));
 }
